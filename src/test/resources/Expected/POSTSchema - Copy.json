@@ -1,0 +1,58 @@
+{
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-06/schema#",
+  "properties": {
+    "id": {
+      "$id": "/properties/id",
+      "type": "string",
+      "title": "The Id Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "de7153b1ac006bb1bcc1c78d8e8d54a43b70c019"
+      ]
+    },
+    "place_id": {
+      "$id": "/properties/place_id",
+      "type": "string",
+      "title": "The Place_id Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "qgYvCi0wMDAwMDBjODZlNTRhZDRkOjZiMTJhZTM3YjQ3OjYyNjMxNjg3ZDYxZWJjOWU"
+      ]
+    },
+    "reference": {
+      "$id": "/properties/reference",
+      "type": "string",
+      "title": "The Reference Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "CkQxAAAASEq_p2XjfONro4LmvzgYBlrGklbxP_8VulhTM66RXW8fo6JzYq-5cBENqiSo6bl1V9HChlSPW-ZhyOZ796gRJxIQKhSDYziYwX5FOHJHSjYcXxoU1UjzZGXn1ebAa_im4mc8ZOlKHb8"
+      ]
+    },
+    "scope": {
+      "$id": "/properties/scope",
+      "type": "string",
+      "title": "The Scope Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "APP"
+      ]
+    },
+    "status": {
+      "$id": "/properties/status",
+      "type": "string",
+      "title": "The Status Schema",
+      "description": "An explanation about the purpose of this instance.",
+      "default": "",
+      "examples": [
+        "OK"
+      ]
+    }
+  }
+}
